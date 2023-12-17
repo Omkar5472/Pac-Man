@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Pac-Man Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      body {
+        background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/056b585a-da79-453a-a20e-9d0c98d0cad0/d5qqh82-b7724e38-f68f-473c-8cae-42ef4b057af9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1NmI1ODVhLWRhNzktNDUzYS1hMjBlLTlkMGM5OGQwY2FkMFwvZDVxcWg4Mi1iNzcyNGUzOC1mNjhmLTQ3M2MtOGNhZS00MmVmNGIwNTdhZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NSKFwZXCNwDPPC2lfuLTfdJLEhoh6Zt2dLbmRSr6cNM');
+        background-size: cover; /* Adjust the background size to cover the entire screen */
+        margin: 0; /* Remove default body margin */
+        overflow: hidden; /* Hide overflow content */
+      }
+
+      /* Add any other styles you may need */
+    </style>
+  </head>
+
+  <body>
+    <button id="startButton">Start Game</button>
+    <button id="endButton" style="display: none">End Game</button><br>
+    </br>
+    <div id="score">Score: <span id="scoreValue">0</span></div>
+    <div id="highestScore">Highest Score: <span id="highestScoreValue">0</span></div>
+    <div id="gameArea">
+      <div id="pacman"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

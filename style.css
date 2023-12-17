@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#gameArea {
+  width: 900px;
+  height: 420px;
+  margin: 5px auto;
+  position: relative;
+  border: 2px solid #fff;
+  background-color: #000;
+  overflow: hidden;
+}
+
+#pacman {
+  background-image: url("https://www.logolynx.com/images/logolynx/s_9b/9bd0567b5a9a5eeb39f306032ff2469f.png");
+  background-size: contain; /* Adjust the size of Pac-Man within the game area */
+  width: 44.5px; /* Set the width of Pac-Man */
+  height: 50px; /* Set the height of Pac-Man */
+  position: absolute;
+  /* Additional styles to position Pac-Man as needed */
+}
+
+.item {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 251, 251);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.ghost {
+  background-image: url("https://pngimg.com/uploads/pacman/pacman_PNG61.png");
+  background-size: contain; /* Adjust the size of Pac-Man within the game area */
+  width: 45px; /* Set the width of Pac-Man */
+  height: 45px; /* Set the height of Pac-Man */
+  position: absolute;
+  /* Additional styles to position Pac-Man as needed */
+}
+
+#score {
+  margin-top: 10px;
+  background-color: #5c6166;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+#highestScore {
+  margin-top: 10px;
+  background-color: #5c6166;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
